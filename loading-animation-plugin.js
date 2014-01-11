@@ -2,7 +2,7 @@
  * Created by David on 14-1-11.
  * @author D.W.
  * @date 2014-1-11 14:04:39
- * @api
+ * @api startLoadingAnimation,stopLoadingAnimation,setLoadingMsg
  * @description show the loading animation, you can specify the tip text as you want
  * @email davidwang2006@outlook.com
  */
