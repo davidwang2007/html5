@@ -14,7 +14,7 @@
         doc.addEventListener('readystatechange',function(){
             if(doc.readyState == 'complete'){
                 console.debug(formatLog('plugin installed'));
-                console.debug(formatLog('You can call startLoadingAnimation,stopLoadingAnimation,setLoadingMsg through '+(win.jQuery ? 'jQuery' : 'directly')+'.'));
+                console.debug(formatLog('You can call startLoadingAnimation,stopLoadingAnimation,setLoadingMsg '+(win.jQuery ? 'with jQuery' : 'directly')+'.'));
             }
         },false);
     },false);
