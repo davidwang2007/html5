@@ -6,8 +6,8 @@
  * @description show the loading animation, you can specify the tip text as you want
  * @email davidwang2006@outlook.com
  */
-'strict';
-(function(){
+;(function(){
+    'use strict';
     var win = this;
     var doc = win.document;
     doc.addEventListener('DOMContentLoaded',function(){
