@@ -6,7 +6,7 @@
  * @description show the loading animation, you can specify the tip text as you want
  * @email davidwang2006@outlook.com
  */
-
+'strict';
 (function(){
     var win = this;
     var doc = win.document;
